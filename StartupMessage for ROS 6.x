@@ -1,7 +1,7 @@
 ## RouterBoard StartupMessage script need to be add in sheduler , <Start Time:> - startup.
 ## RouterOS 6.x, they say works on ROS 7.x, I tried all good. But better use StartupMessage for ROS 7.x
 ## VER 1.0
-## Tested in RB951
+## Tested on 951G-2HnD, 952Ui-5ac2nD,CRS326-24G-2S, RB4011iGS 5HacQ2HnD, RB4011iGS, RBD52G-5HacD2HnD
 
 #==========================================================================================
 ## !!!used TelegramSendMessage!!!
