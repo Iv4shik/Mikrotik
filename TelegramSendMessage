@@ -5,8 +5,8 @@
 ##========================================================
 
 ## VARS
-:local BotToken "<insert your BotToken, and delete <>>";
-:local ChatID "<insert your ChatID, and delete <>>";
+:local BotToken "<insert your BotToken, and remove <>>";
+:local ChatID "<insert your ChatID, and remove <>>";
 :local ParseMode "html";
 :local DisableWebPagePreview True;
 :local SendText $MessageText;
