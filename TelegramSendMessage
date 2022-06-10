@@ -1,0 +1,16 @@
+## TelegramSendMessage script
+
+## VER 1.0
+
+## VARS
+:local BotToken "<insert your BotToken, and delete <>>";
+:local ChatID "<insert your ChatID, and delete <>>";
+:local ParseMode "html";
+:local DisableWebPagePreview True;
+:local SendText $MessageText;
+
+:local TelegramUrl "https://api.telegram.org/bot$BotToken/sendMessage?chat_id=$ChatID&text=$SendText&parse_mode$ParseMode&disable_web_page_preview=$DisableWebPagePreview";
+
+/tool fetch http-method=get url=$TelegramUrl output=none;
+
+:log info "Send Telegram Message: $MessageText";
