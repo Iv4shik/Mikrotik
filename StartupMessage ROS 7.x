@@ -6,7 +6,8 @@
 #==========================================================================================
 ## !!!used TelegramSendMessage!!!
 
-:delay 30; ## script starts in 30 seonds after boot
+## script starts in 30 seonds after boot
+#:delay 30;
 
 ## VARS: name, model, date, time
 :local HostName [/system/identity/get name]
@@ -22,7 +23,8 @@
 ## CLOUD VARS: dyndns name, public ip address (can be behind a NAT)
 :local DNSname [/ip/cloud/get dns-name]
 :local PublicAddress [/ip/cloud/get public-address]
-:local NATwarning [/ip/cloud/get warning] ## behind NAT check
+## behind NAT location check
+:local NATwarning [/ip/cloud/get warning]
 
 ## message
 :local MessageText "$HostName: $HostName ($Model) is ONLINE \
