@@ -7,7 +7,7 @@
 ## !!!used TelegramSendMessage!!!
 
 ## script starts in 30 seonds after boot
-#:delay 30;
+:delay 30;
 
 ## VARS: name, model, date, time
 :local HostName [/system/identity/get name]
