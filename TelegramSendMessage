@@ -1,6 +1,8 @@
 ## TelegramSendMessage script
-
 ## VER 1.0
+## Tested on 951G-2HnD, 952Ui-5ac2nD,CRS326-24G-2S, RB4011iGS 5HacQ2HnD, RB4011iGS, RBD52G-5HacD2HnD
+
+##========================================================
 
 ## VARS
 :local BotToken "<insert your BotToken, and delete <>>";
